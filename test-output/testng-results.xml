@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on sign in link[[ChromeDriver: chrome on WINDOWS (42a0ff1945a2783431905e11788753af)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter emailAdmin123@gmail.comaddress]]>
+    </line>
+    <line>
+      <![CDATA[Enter passwordabc123]]>
+    </line>
+    <line>
+      <![CDATA[Click On Sign in button [[ChromeDriver: chrome on WINDOWS (42a0ff1945a2783431905e11788753af)] -> xpath: //button[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[Get error message [[ChromeDriver: chrome on WINDOWS (42a0ff1945a2783431905e11788753af)] -> xpath: //li[contains(text(),"Invalid email or password.")]]]]>
+    </line>
+    <line>
+      <![CDATA[Click on sign in link[[ChromeDriver: chrome on WINDOWS (22ed676efdf970b934cd75279929eb36)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+    </line>
+    <line>
+      <![CDATA[Get welcome text[[ChromeDriver: chrome on WINDOWS (22ed676efdf970b934cd75279929eb36)] -> xpath: //h2[contains(text(),'Welcome Back!')]]]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="14296" started-at="2022-12-13T14:09:49 GMT" finished-at="2022-12-13T14:10:03 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.VerifyUserShouldNotLoginWithInvalidDataAndVerifyErrorMessage()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="VerifyUserShouldNotLoginWithInvalidDataAndVerifyErrorMessage" class="com.ultimateqa.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyUserShouldDNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="verifyUserShouldDNavigateToLoginPageSuccessfully" class="com.ultimateqa.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.VerifyUserShouldNotLoginWithInvalidDataAndVerifyErrorMessage()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="VerifyUserShouldNotLoginWithInvalidDataAndVerifyErrorMessage" class="com.ultimateqa.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.verifyUserShouldDNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="verifyUserShouldDNavigateToLoginPageSuccessfully" class="com.ultimateqa.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Smoke Test" duration-ms="14296" started-at="2022-12-13T14:09:49 GMT" finished-at="2022-12-13T14:10:03 GMT">
+      <class name="com.ultimateqa.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="setUp" is-config="true" duration-ms="5194" started-at="2022-12-13T14:09:49 GMT" finished-at="2022-12-13T14:09:54 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="inIt" is-config="true" duration-ms="23" started-at="2022-12-13T14:09:54 GMT" finished-at="2022-12-13T14:09:55 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="VerifyUserShouldNotLoginWithInvalidDataAndVerifyErrorMessage()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="VerifyUserShouldNotLoginWithInvalidDataAndVerifyErrorMessage" duration-ms="2620" started-at="2022-12-13T14:09:55 GMT" finished-at="2022-12-13T14:09:57 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on sign in link[[ChromeDriver: chrome on WINDOWS (42a0ff1945a2783431905e11788753af)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+            </line>
+            <line>
+              <![CDATA[Enter emailAdmin123@gmail.comaddress]]>
+            </line>
+            <line>
+              <![CDATA[Enter passwordabc123]]>
+            </line>
+            <line>
+              <![CDATA[Click On Sign in button [[ChromeDriver: chrome on WINDOWS (42a0ff1945a2783431905e11788753af)] -> xpath: //button[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[Get error message [[ChromeDriver: chrome on WINDOWS (42a0ff1945a2783431905e11788753af)] -> xpath: //li[contains(text(),"Invalid email or password.")]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyUserShouldNotLoginWithInvalidDataAndVerifyErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="tearDown" is-config="true" duration-ms="716" started-at="2022-12-13T14:09:57 GMT" finished-at="2022-12-13T14:09:58 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="setUp" is-config="true" duration-ms="3430" started-at="2022-12-13T14:09:58 GMT" finished-at="2022-12-13T14:10:01 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="inIt" is-config="true" duration-ms="2" started-at="2022-12-13T14:10:01 GMT" finished-at="2022-12-13T14:10:01 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldDNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="verifyUserShouldDNavigateToLoginPageSuccessfully" duration-ms="1205" started-at="2022-12-13T14:10:01 GMT" finished-at="2022-12-13T14:10:02 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on sign in link[[ChromeDriver: chrome on WINDOWS (22ed676efdf970b934cd75279929eb36)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+            </line>
+            <line>
+              <![CDATA[Get welcome text[[ChromeDriver: chrome on WINDOWS (22ed676efdf970b934cd75279929eb36)] -> xpath: //h2[contains(text(),'Welcome Back!')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldDNavigateToLoginPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@57e1b0c]" name="tearDown" is-config="true" duration-ms="664" started-at="2022-12-13T14:10:02 GMT" finished-at="2022-12-13T14:10:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ultimateqa.testsuite.LoginPageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
